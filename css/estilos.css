@@ -1,4 +1,33 @@
-.menu-bar{
+div.menu nav ul li a:focus,
+div.menu nav ul li a:visited,
+div.menu nav ul li a:active{
+	color: black;
+}
+
+div.menu nav ul li a:hover{
+	background-color: orange;
+}
+
+div.menu nav ul li a {
+	text-decoration: none;
+}
+
+nav.menu-bar{
 	background-color: red;
 
+}
+
+nav.menu-bar ul{
+
+	list-style: none;
+}
+
+nav.menu-bar ul li{
+
+	display: inline;
+}
+
+
+nav.menu-bar ul li a{
+	color: white;
 }

@@ -1,3 +1,16 @@
+body{
+	background-color: gray;
+}
+
+div.contenedor{
+
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	margin: 0 auto;
+}
+
 div.menu nav ul li a:focus,
 div.menu nav ul li a:visited,
 div.menu nav ul li a:active{
@@ -6,14 +19,25 @@ div.menu nav ul li a:active{
 
 div.menu nav ul li a:hover{
 	background-color: orange;
+
 }
 
 div.menu nav ul li a {
+
 	text-decoration: none;
 }
 
 nav.menu-bar{
 	background-color: red;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: right;
+	text-align: right;
+	display: block;
 
 }
 
